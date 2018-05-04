@@ -8,18 +8,6 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     	<meta charset="utf-8">
 		<script type="text/javascript" src="jspdf.js"></script>
-		<script type = "text/javascript">
-		
-		function genPDF(){
-			var doc = new jsPDF();
-			
-			doc.text(20,20,'TEST Message!!');
-			doc.addPage();
-			doc.text(20,20,'TEST Page 2!');
-			doc.save('Test.pdf');
-		}
-
-		</script>
 
 
 		<style>
@@ -220,10 +208,8 @@ function toggleBounce() {
       }
 
 // Carga de la libreria de google maps 
-	
-    
-	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFB3FutoNgb8QsSElEJUemvv7m1g72F3I">
-					</script>type="text/javascript"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFB3FutoNgb8QsSElEJUemvv7m1g72F3I&callback=initMap"
+    type="text/javascript"></script>
     </script>
     
 
