@@ -149,6 +149,13 @@ div#margenNosotros{
 	margin: 30px auto;
 }
 
+div#Login{
+	background-color: #E6E6E6;
+	height:400px;
+	width:1000px;
+	margin: 50px auto;
+}
+
 div#teoria1{
 	height:360px;
 	width:500px;
