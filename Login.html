@@ -51,7 +51,45 @@
 			</div>
 			<div id="Login">
 			
+			 <div id="login_div" class="main-div">
+			 </br>
 			 
+    <h2>Login usuarios AgroPortal</h2>
+    </br>
+    </br>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Iniciar Sesión</button>
+</br>
+<button onclick="create_account()">Crear nueva cuenta</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+  	</br>
+  	</br>
+    <h3>Bienvenido</h3>
+    </br>
+    <p id="user_para">Bienvenido, tienes tu cuenta iniciada. ¿Deseas cerrar sesión?.</p>
+    </br>
+    <button onclick="logout()">Cerrar Sesión</button>
+  </div>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAdKL514yFUVU_d5lBDrLTa1NGUIag5sZ0",
+    authDomain: "loginagro.firebaseapp.com",
+    databaseURL: "https://loginagro.firebaseio.com",
+    projectId: "loginagro",
+    storageBucket: "",
+    messagingSenderId: "107383150959"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="index.js"></script>
 
 
 			 
